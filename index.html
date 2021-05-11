@@ -4,16 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Tidelab-prepclass</title>
+    <style>
+        div{
+            color: purple;
+        }
+        p{
+            color: black;
+        }
+        #paragraph{
+            color: green;
+            font-size: 25px;
+            background-color: black;
+        }
+        .color-paragraph{
+            color: red;
+            font-size: 25px;
+            background-color:greenyellow;
+        }
+    </style>
+   
 </head>
 
 <body>
-    <h1>Hi Harriet</h1>
-    <h2>Hi Harriet</h2>
-    <h3>Hello World</h3>
-    <h4>Hello World</h4>
-    <h5>Hi Harriet</h5>
-    <h6>Hi Harriet</h6>
+    <h1 style="color:red; background:blue;">Hi Harriet</h1>
+    <h2 style="color:pink; font-size:40px;">Hi Harriet</h2>
+    <h3 style="font-weight:200;">Hello World</h3>
+    <h4 style="background: yellow;">Hello World</h4>
+    <h5 style="font-family: 'Courier New', Courier, monospace;">Hi Harriet</h5>
+    <h6 style="font-style: italic;">Hi Harriet</h6>
 
     <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, exercitationem rem dolorum
         aliquid nobis commodi minus nostrum sunt aliquam beatae, recusandae nulla mollitia minima illo. Laboriosam unde
@@ -38,13 +58,13 @@
         <li>e</li>
         <li>f</li>
     </nav>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet totam consequuntur accusamus est illum, vitae,
+    <p style="font-family: cursive;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet totam consequuntur accusamus est illum, vitae,
         expedita laboriosam explicabo ut libero magnam, minus sit dolores labore possimus doloremque assumenda?
         Consectetur, molestiae?</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet totam consequuntur accusamus est illum, vitae,
+    <p id="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet totam consequuntur accusamus est illum, vitae,
         expedita laboriosam explicabo ut libero magnam, minus sit dolores labore possimus doloremque assumenda?
         Consectetur, molestiae?</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet totam consequuntur accusamus est illum, vitae,
+    <p class="color-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet totam consequuntur accusamus est illum, vitae,
         expedita laboriosam explicabo ut libero magnam, minus sit dolores labore possimus doloremque assumenda?
         Consectetur, molestiae?</p>
 
@@ -85,13 +105,13 @@
             <div></div>
             <div></div>
         </main>
-        <ol>
+        <ol class="red-group">
         <li>hair</li>
         <li>provisions</li>
         <li>toiletries</li>
         <li>clothings</li>
     </ol>
-    <ul>
+    <ul class="yellow-group">
     <li>hair</li>
     <li>provisions</li>
     <li>toiletries</li>
