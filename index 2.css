@@ -28,6 +28,7 @@ table{
     border:solid black;
     width: 80%;
     border-collapse: collapse;
+    align-content: center;
 }
 th{border: 3px solid black;
     background-color: blue;
@@ -36,6 +37,6 @@ td{background-color:yellowgreen;
     border: 3px solid black;
     text-align: center;
 }
-#stand{color: green;}
-#standd{color: hotpink;}
-#stan{color: lawngreen;}
+#stand{color: green;text-align: center;}
+#standd{color: hotpink; text-align: center;}
+#stan{color: lawngreen; text-align: center;}
