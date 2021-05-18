@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: hotpink;
+}
+.nav-bar {
+  display: flex;
+  padding: 15px;
+  font-size: 25px;
+  height: 10vh;
+  background: #fff;
+  font-family: sans-serif;
+}
+
+.logo {
+  width: 130px;
+  height: 70px;
+}
+.nav-link {
+  /* display: flex; */
+  margin-left: 45px;
+  text-decoration: none;
+  color: purple;
+  font-size: 20px;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: auto;
+  padding: 0;
+  justify-content: space-between;
+}
+h1 {
+  padding: 20px;
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+.text-container {
+  display: flex;
+  padding: 25px;
+  font-size: 25px;
+  gap: 150px;
+  line-height: 2.9rem;
+  color: #fff;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.image {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+}
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.card {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  background: #fff;
+  height: 45vh;
+  width: 300px;
+  margin: 20px;
+}
+.card-body {
+  text-align: center;
+  /* padding: 0px; */
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.btn {
+  width: 120px;
+  height: 45px;
+  background: purple;
+  border-radius: 15px;
+  color: white;
+  border: none;
+}
+h5 {
+  font-size: 25px;
+  text-align: center;
+}
+
+@media screen and (max-width: 501px) {
+  .nav-bar {
+    display: flex;
+    font-size: 15px;
+    background: #fff;
+    font-family: sans-serif;
+  }
+}
+
+@media screen and (max-width: 501px) {
+  .text-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+    font-size: 25px;
+    gap: 120px;
+    line-height: 2.9rem;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+}
+
+@media screen and (max-width: 501px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background: #fff;
+    /* height: 55vh; */
+    width: 400px;
+    /* margin: 20px; */
+  }
+
+  .btn {
+    width: 100px;
+    height: 45px;
+    background: purple;
+    border-radius: 10px;
+    color: white;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 501px) {
+  .nav-link {
+    text-decoration: none;
+    color: purple;
+    font-size: 15px;
+    margin-left: 0;
+    padding: 0.2em;
+  }
+}
