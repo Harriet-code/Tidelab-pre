@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day5-assignment</title>
+    <link rel="stylesheet" href="day5.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <div><a href="#" class="logo"> Logo</a></div>
+      <!-- <div><img src="#" alt="logo" / class="Logo"></div> -->
+
+      <div class="nav-items" id="nav-item-wrapper">
+        <a href="#" class="nav-links"> Home</a>
+        <a href="#" class="nav-links"> About Us</a>
+        <a href="#" class="nav-links"> Clothings</a>
+        <a href="#" class="nav-links"> Accessories</a>
+        <a href="#" class="nav-links"> Contact Us</a>
+      </div>
+      <!-- DECLARE AN ID AND INPUT THE CLICK FUNCTION -->
+      <div
+        class="hamburger-wrapper"
+        id="menu-toggler"
+        onclick="toggleNavbar ()"
+      >
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <main>
+      <section class="info">
+        <h1>Welcome to <strong>Harrie Shoppers</strong></h1>
+
+        <p>Your One-Stop Online Shop</p>
+        <h3>Happy Shopping🤗🤗</h3>
+        <button class="btn"><a href="#">Click Here to Shop</a></button>
+      </section>
+
+      <section class="my-img">
+        <img src="undraw_online_groceries_a02y.svg" alt="img" />
+      </section>
+    </main>
+  </body>
+  <script src="harmburger.js"></script>
+</html>

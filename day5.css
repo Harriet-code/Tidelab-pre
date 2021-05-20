@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 200px;
+  background-color: rgb(35, 38, 212);
+  transition: 0.3 ease;
+}
+.logo {
+  /* width: 130px;
+  height: 70px; */
+  font-size: 30px;
+}
+.hamburger-wrapper {
+  display: none;
+}
+.nav-items .nav-links {
+  font-size: 17px;
+  padding: 20px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.nav-items .nav-links:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(47, 46, 65);
+  border-radius: 5px;
+}
+
+main {
+  display: flex;
+  padding: 100px 200px;
+}
+.info {
+  width: 40%;
+  line-height: 1.5;
+}
+.info strong {
+  color: rgb(167, 43, 179);
+}
+.info h1 {
+  font-size: 35px;
+  font-family: "Pattaya", sans-serif;
+}
+.my-img {
+  width: 60%;
+}
+.my-img img {
+  width: 100%;
+  height: 100%;
+}
+.btn {
+  background-image: linear-gradient(
+    to right,
+    rgb(212, 147, 231),
+    rgb(167, 43, 179)
+  );
+  border: none;
+  width: 15rem;
+  height: 3rem;
+  border-radius: 25px;
+  font-size: 20px;
+  margin-top: 100px;
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+h3 {
+  font-family: "Reggae One", cursive;
+}
+@media (max-width: 700px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+  }
+  .logo {
+    width: 130px;
+    height: 70px;
+  }
+  .hamburger-wrapper {
+    display: block;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 25px;
+  }
+
+  .nav-items {
+    display: none;
+  }
+  /* THIS IS A CLASS THAT TELLS WHAT TO DO WHEN THE NAVBAR IS OPENEDOR CLICKED */
+  .open-nav-item {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    width: 100%;
+  }
+  .nav-links {
+    text-align: right;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 50px;
+  }
+  .info {
+    width: 40%;
+    line-height: 1.5;
+  }
+}
