@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./../assets/css/navbar.css" />
+    <link rel="stylesheet" href="./../assets/css/contact.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass&family=Roboto:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <title>contact us</title>
+  </head>
+  <body>
+    <nav>
+      <div><a href="#" class="logo"> Logo</a></div>
+
+      <div class="nav-items" id="nav-item-wrapper">
+        <a href="#" class="nav-links"> Home</a>
+        <a href="#" class="nav-links"> About Us</a>
+        <a href="#" class="nav-links"> Clothings</a>
+        <a href="#" class="nav-links"> Accessories</a>
+        <a href="./../day5.html" class="nav-links"> Contact Us</a>
+      </div>
+      <div
+        class="hamburger-wrapper"
+        id="menu-toggler"
+        onclick="toggleNavbar ()"
+      >
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <main>
+      <section class="container-contact">
+        <div class="contact-us-form">
+          <div class="contact-image">
+            <img
+              src="./../assets/img/undraw_Mobile_inbox_re_ciwq.svg"
+              class="img"
+              alt="img"
+            />
+          </div>
+          <div class="contact-content">
+            <div class="contact-header">
+              <h1>Have Some Questions?</h1>
+              <p>Please Contact us 📩</p>
+            </div>
+            <div class="contact-info">
+              <input
+                placeholder="Name"
+                type="text"
+                name="Name"
+                class="placeholder"
+              />
+              <input
+                placeholder="Email"
+                type="email"
+                name="Email"
+                class="placeholder"
+              />
+              <textarea
+                name="The text"
+                id="text"
+                cols="30"
+                rows="10"
+                class="text-area"
+              >
+ Leave Us a Message</textarea
+              >
+            </div>
+            <button class="submit-btn"><a href="#">Submit</a></button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="./../assets/js/harmburger.js"></script>
+</html>
