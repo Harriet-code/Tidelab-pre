@@ -5,34 +5,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-
-/* nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 200px;
-  background-color: rgb(228, 25, 218);
-  transition: 0.3 ease;
-}
-.logo {
-  width: 130px;
-  height: 70px;
-  font-size: 30px;
-}
 .hamburger-wrapper {
-  display: flex;
+  display: none;
 }
-.nav-items .nav-links {
-  font-size: 17px;
-  padding: 20px;
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-}
-.nav-items .nav-links:hover {
-  background-color: rgb(255, 255, 255);
-  color: rgb(47, 46, 65);
-  border-radius: 5px;
-} */
-
 /* info starts here */
 main {
   display: flex;
@@ -91,5 +66,8 @@ h3 {
   }
   .my-img {
     width: 100%;
+  }
+  .hamburger-wrapper {
+    display: flex;
   }
 }
