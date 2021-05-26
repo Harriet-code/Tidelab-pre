@@ -80,6 +80,7 @@ h1 {
   font-family: "Overpass";
   font-size: 400;
 }
+
 @media (max-width: 600px) {
   .contact-us-form {
     display: flex;

@@ -11,7 +11,7 @@
 .info-about {
   display: flex;
   flex-direction: column;
-  margin-top: 10rem;
+  margin-top: 5rem;
   gap: 5rem;
 }
 h1 {
@@ -24,6 +24,29 @@ p {
   font-family: sans-serif;
   font-size: 15px;
 }
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-instagram {
+  margin-top: 1rem;
+  background: none;
+  font-size: 20px;
+  color: rgb(233, 35, 173);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
 @media (max-width: 600px) {
   .about-us {
     display: flex;
