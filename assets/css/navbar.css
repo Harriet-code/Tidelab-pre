@@ -2,7 +2,7 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 20px 200px;
-  background-color: rgb(228, 25, 218);
+  background-color: rgb(25, 170, 228);
   transition: 0.3 ease;
 }
 .logo {
