@@ -91,12 +91,11 @@ h1 {
     border-radius: 5px;
     box-shadow: 2px 2px 30px grey;
     text-align: center;
-    /* margin: 5rem 6rem 10rem 6rem; */
     margin-bottom: 10rem;
     padding-left: 5rem;
     padding-bottom: 10rem;
   }
   .hamburger-wrapper {
-    display: block;
+    display: flex;
   }
 }
