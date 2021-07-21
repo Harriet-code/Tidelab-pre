@@ -8,35 +8,82 @@
 .hamburger-wrapper {
   display: none;
 }
-/* info starts here */
-main {
+/* main starts here */
+.main-container {
   display: flex;
-  padding: 100px 200px;
+  flex-direction: column;
+
   gap: 50px;
 }
-.info {
-  width: 40%;
+
+/* first section */
+.first-section {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/assets/img/coffee-2737047_1920.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 200px;
+  width: 100%;
   line-height: 1.5;
+  text-align: center;
+  height: 100vh;
+}
+.info {
+  padding-top: 200px;
 }
 .info strong {
-  color: rgb(167, 43, 179);
+  color: rgb(237, 232, 238);
 }
 .info h1 {
   font-size: 35px;
   font-family: "Pattaya", sans-serif;
 }
-.my-img {
-  width: 60%;
+.info p {
+  font-size: 1.5rem;
+  color: #ffff;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
 }
-.my-img img {
+/* second section */
+.second-section {
+  height: 60vh;
   width: 100%;
-  height: 100%;
+  background: linear-gradient(
+      0deg,
+      rgba(9, 108, 133, 0.5),
+      rgba(28, 74, 88, 0.5)
+    ),
+    url("/assets/img/programming-1873854_1920.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+.about {
+  padding-top: 90px;
+  text-align: center;
+  color: #ffff;
+}
+
+.about h1 {
+  font-size: 2.5em;
+  letter-spacing: 4px;
+  font-weight: bold;
+  margin-bottom: 0.625em;
+  text-transform: uppercase;
+}
+.about p {
+  font-size: 1.6em;
+  text-align: center;
+  line-height: 1.4em;
+  padding: 3rem;
+}
+/* button */
 .btn {
   background-image: linear-gradient(
     to right,
-    rgb(212, 147, 231),
-    rgb(167, 43, 179)
+    rgb(28, 86, 104),
+    rgb(63, 175, 209)
   );
   border: none;
   width: 15rem;
@@ -52,6 +99,8 @@ a {
 h3 {
   font-family: "Reggae One", cursive;
 }
+
+/* footer section */
 .footer-info {
   height: 100px;
   background-color: black;

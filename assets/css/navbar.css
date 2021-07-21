@@ -2,13 +2,16 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 20px 200px;
-  background-color: rgb(25, 170, 228);
+  /* background-color: rgb(93, 194, 235); */
+  background: rgba(255, 255, 255, 0.9);
   transition: 0.3 ease;
+  position: fixed;
+  width: 100%;
 }
 .logo {
   font-size: 30px;
   text-decoration: none;
-  color: #fff;
+  color: rgb(66, 190, 221);
 }
 .hamburger-wrapper {
   display: flex;
@@ -17,11 +20,11 @@ nav {
   font-size: 17px;
   padding: 20px;
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgb(66, 190, 221);
 }
 .nav-items .nav-links:hover {
-  background-color: rgb(255, 255, 255);
-  color: rgb(47, 46, 65);
+  background-color: rgb(17, 81, 110);
+  color: #fff;
   border-radius: 5px;
 }
 /* MEDIA QUERY */
