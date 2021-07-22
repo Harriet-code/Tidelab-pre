@@ -5,9 +5,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-.hamburger-wrapper {
+/* .hamburger-wrapper {
   display: none;
-}
+} */
 /* main starts here */
 .main-container {
   display: flex;
@@ -186,20 +186,44 @@ h4 {
   color: #ffff;
 }
 
-@media (max-width: 600px) {
-  main {
+@media (max-width: 375px) {
+  .main-container {
     display: flex;
     flex-direction: column;
     gap: 50px;
-    padding: 100px 50px;
+    padding: 98px 15px;
+    width: 100%;
+  }
+  /* First Section */
+  .first-section {
+    height: 50vh;
+    padding: 0;
+    background-size: cover;
   }
   .info {
-    width: 100%;
-    line-height: 1.5;
+    padding-top: 150px;
   }
-  .my-img {
-    width: 100%;
+  .info h1 {
+    font-size: 1.5rem;
   }
+
+  /* About section */
+  .about {
+    padding-top: 50px;
+    text-align: center;
+    color: #ffff;
+  }
+
+  .about p {
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 1.6rem;
+    padding-top: 20px;
+    word-spacing: 0.1rem;
+    /* padding: 3rem; */
+  }
+
+  /* Hamburger */
   .hamburger-wrapper {
     display: flex;
   }

@@ -14,10 +14,10 @@ nav {
   color: rgb(66, 190, 221);
 }
 .hamburger-wrapper {
-  display: flex;
+  display: none;
 }
 .nav-items .nav-links {
-  font-size: 17px;
+  font-size: 1.1rem;
   padding: 20px;
   text-decoration: none;
   color: rgb(66, 190, 221);
@@ -40,7 +40,7 @@ nav {
   }
   .hamburger-wrapper {
     display: block;
-    color: rgb(255, 255, 255);
+    color: rgb(66, 190, 221);
     cursor: pointer;
     font-size: 25px;
   }
@@ -48,7 +48,11 @@ nav {
   .nav-items {
     display: none;
   }
-  /* THIS IS A CLASS THAT TELLS WHAT TO DO WHEN THE NAVBAR IS OPENEDOR CLICKED */
+
+  .nav-items .nav-links {
+    font-size: 1.5rem;
+  }
+  /* THIS IS A CLASS THAT TELLS WHAT TO DO WHEN THE NAVBAR IS OPENED OR CLICKED */
   .open-nav-item {
     display: flex;
     flex-direction: column;
