@@ -5,7 +5,7 @@ nav {
   /* background-color: rgb(93, 194, 235); */
   background: rgba(255, 255, 255, 0.9);
   transition: 0.3 ease;
-  position: fixed;
+  position: sticky;
   width: 100%;
 }
 .logo {
@@ -17,7 +17,7 @@ nav {
   display: none;
 }
 .nav-items .nav-links {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   padding: 20px;
   text-decoration: none;
   color: rgb(66, 190, 221);
@@ -51,6 +51,9 @@ nav {
 
   .nav-items .nav-links {
     font-size: 1.5rem;
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(66, 190, 221);
   }
   /* THIS IS A CLASS THAT TELLS WHAT TO DO WHEN THE NAVBAR IS OPENED OR CLICKED */
   .open-nav-item {

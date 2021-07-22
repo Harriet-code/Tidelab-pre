@@ -1,60 +1,145 @@
+@import url(./navbar.css);
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 .hamburger-wrapper {
-  display: none;
-}
-.about-us {
   display: flex;
-  transition: 0.3s ease;
-  padding: 50px 100px;
+}
+.main-container {
+  display: flex;
+  flex: 1;
+  padding: 30px 25px;
+  height: 150vh;
+  width: 100%;
+  background-color: rgb(66, 190, 221);
 }
 .info-about {
   display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+.header-about {
+  width: 50%;
+  padding: 2rem;
+  line-height: 1.4;
+}
+.header-about h1 {
+  color: rgb(208, 229, 235);
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-text {
+  display: flex;
   flex-direction: column;
-  margin-top: 5rem;
-  gap: 5rem;
 }
-h1 {
-  font-family: "pattaya";
-}
-
 p {
-  font-family: sans-serif;
-  font-size: 25px;
-  line-height: 2.3rem;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.7rem;
+  line-height: 1.5;
 }
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 15px;
+h3 {
+  color: rgb(208, 229, 235);
+  padding-top: 20px;
+  font-size: 2rem;
+}
+
+.icon-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+
+i {
+  font-size: 1rem;
+  width: 1rem;
+  margin-right: 20px;
+}
+
+.image img {
+  max-width: 400px;
+  border-radius: 15px;
+}
+/* footer section */
+.footer-info {
+  height: 100px;
+  background-color: black;
+}
+h4 {
+  color: #ffff;
   text-align: center;
-  text-decoration: none;
-  border-radius: 30px;
-}
-.fa:hover {
-  opacity: 0.7;
-}
-.fa-instagram {
-  margin-top: 1rem;
-  background: none;
-  font-size: 20px;
-  color: rgb(233, 35, 173);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 20px;
 }
 
-a {
-  text-decoration: none;
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 20px;
+  margin-left: 20px;
+  font-size: 2rem;
+  color: #ffff;
 }
 
+/* MEDIA QUERY MOBILE APPROACH */
 @media (max-width: 600px) {
-  .about-us {
+  .main-container {
+    padding: 30px 25px;
+    height: 230vh;
+    width: 100%;
+    background-color: rgb(66, 190, 221);
+  }
+
+  .info-about {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    gap: 5rem;
+  }
+  .header-about {
+    width: 100%;
+  }
+  .header-about h1 {
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .about-text {
     display: flex;
     flex-direction: column;
   }
+  p {
+    padding-top: 20px;
+    font-size: 1.4rem;
+    line-height: 1.5;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+
+  .icon-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-transform: uppercase;
+    padding-top: 20px;
+  }
+
+  i {
+    font-size: 1rem;
+    width: 1rem;
+    margin-right: 20px;
+  }
+  .image img {
+    width: 100%;
+  }
+
   .hamburger-wrapper {
     display: flex;
   }
