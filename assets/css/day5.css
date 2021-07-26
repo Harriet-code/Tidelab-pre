@@ -197,7 +197,7 @@ h4 {
   }
   /* First Section */
   .first-section {
-    height: 50vh;
+    /* height: 50vh; */
     padding: 0;
     background-size: cover;
   }
