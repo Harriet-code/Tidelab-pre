@@ -90,7 +90,7 @@ h4 {
 @media (max-width: 600px) {
   .main-container {
     padding: 30px 25px;
-    height: 230vh;
+    /* height: 230vh; */
     width: 100%;
     background-color: rgb(66, 190, 221);
   }
