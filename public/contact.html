@@ -20,60 +20,80 @@
     <title>contact us</title>
   </head>
   <body>
-    <nav>
-      <div><a href="#" class="logo"> Logo</a></div>
+    <nav class="navbar">
+      <div class="brand-title">OSARUMEN HARRIET</div>
 
-      <div class="nav-items" id="nav-item-wrapper">
-        <a href="#" class="nav-links"> Home</a>
-        <a href="#" class="nav-links"> About</a>
-        <a href="#" class="nav-links"> Work</a>
-        <a href="#" class="nav-links"> Contact</a>
-    
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+
+      <div class="navbar-links">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="/public/About.html">About</a></li>
+          <li><a href="/public/work.html">Projects</a></li>
+          <li><a href="/public/contact.html">Contact </a></li>
+        </ul>
+      </div>
     </nav>
 
-    <main>
-      <section class="container-contact">
-        <div class="contact-us-form">
-          <div class="contact-image">
-            <img
-              src="./../assets/img/undraw_Mobile_inbox_re_ciwq.svg"
-              class="img"
-              alt="img"
-            />
-          </div>
-          <div class="contact-content">
-            <div class="contact-header">
-              <h1>Have Some Questions?</h1>
-              <p>Please Contact us 📩</p>
-            </div>
-            <div class="contact-info">
-              <input
-                placeholder="Name"
-                type="text"
-                name="Name"
-                class="placeholder"
-              />
-              <input
-                placeholder="Email"
-                type="email"
-                name="Email"
-                class="placeholder"
-              />
-              <textarea
-                name="The text"
-                id="text"
-                cols="30"
-                rows="10"
-                class="text-area"
-              >
- Leave Us a Message</textarea
-              >
-            </div>
-            <button class="submit-btn"><a href="#">Submit</a></button>
-          </div>
+    <main class="flex-wrapper">
+      <section class="social__wrapper">
+        <div class="socials">
+          <h2>Socials</h2>
+          <a href="#"> <i class="fas fa-phone-alt">+2348064442072</i></a>
+          <a href="#">
+            <i class="fas fa-envelope-open-text">harriosas@gmail.com</i></a
+          >
+          <a href="#"> <i class="fab fa-linkedin">Osarumenharriet</i></a>
+          <a href="#"> <i class="fab fa-github">Harriet-code1</i></a>
+          <a href="#"><i class="fab fa-twitter-square">twitter</i></a>
         </div>
       </section>
+
+      <section class="contact-content">
+        <div class="contact-header">
+          <h2>Contact me</h2>
+        </div>
+        <div class="contact-info">
+          <input
+            placeholder="Name"
+            type="name"
+            name="Name"
+            class="placeholder"
+          />
+          <input
+            placeholder="Email"
+            type="email"
+            name="email"
+            class="placeholder"
+          />
+          <textarea
+            name="The text"
+            id="text"
+            cols="30"
+            rows="10"
+            class="text-area"
+          >
+ Leave Us a Message</textarea
+          >
+        </div>
+        <button class="submit-btn"><a href="#">Submit</a></button>
+      </section>
     </main>
+
+    <footer class="footer-info">
+      <div class="footer-links">
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-github"></i>
+      </div>
+
+      <h4>Osarumen harriet &reg 2021. All right Reserved</h4>
+    </footer>
   </body>
   <script src="./../assets/js/harmburger.js"></script>
 </html>
