@@ -98,6 +98,7 @@ body {
   );
   border: none;
   height: 3rem;
+  outline: none;
   border-radius: 10px;
   font-size: 1.5rem;
   margin-bottom: 5rem;
@@ -113,12 +114,13 @@ a {
   font-weight: 700;
 }
 
-/* .btn:hover a {
+.btn:hover a {
   padding-right: 25px;
-  color: rgb(66, 190, 221);
+  color: #fff;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 900;
-} */
+  transition: 0.3s ease-in;
+}
 
 /* SKILLS SECTION */
 .what-container:first-child {
@@ -218,10 +220,11 @@ h1 {
 }
 
 /* MASONRY SECTION */
-.wrapper {
-  margin-top: 5rem;
-}
 
+.wrapper h1 {
+  text-align: center;
+  color: black;
+}
 figure {
   margin: 0;
   display: grid;
@@ -277,73 +280,6 @@ h4 {
   font-size: 2rem;
   color: #ffff;
 }
-/* PROJECT SECTION */
-.section-three_container {
-  background: #fff;
-}
-.article-section {
-  padding: 90px 40px 60px 85px;
-}
-.article-section:first-child {
-  font-size: 1.5rem;
-  font-weight: 900;
-  font-family: "Roboto", sans-serif;
-}
-.article-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 1.5rem;
-  padding: 10px 20px 30px 45px;
-  width: 100%;
-}
-
-.articles-card {
-  background-color: rgb(231, 218, 231);
-  border-radius: 1rem;
-  overflow: hidden;
-  transition: transform 0.3s linear;
-}
-/* .articles-card :hover {
-  transform: translateY(-10px);
-  opacity: 1;
-} */
-
-/* .articles-card_preview {
-  width: 100%;
-  height: 400px;
-} */
-
-.card-info {
-  text-align: left;
-  padding: 21px 24px 26px 24px;
-}
-span {
-  color: rgb(4, 4, 7);
-  font-size: 1.5rem;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-}
-
-p {
-  color: grey;
-  font-size: 0.7rem;
-  line-height: 1.5;
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
-}
-
-.articles-card-img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-/* 
-    @media screen and (max-width: 500px) {
-      display: block;
-      width: 100%;
-      height: 200px;
-    } */
 
 /* MEDIA QUERY */
 

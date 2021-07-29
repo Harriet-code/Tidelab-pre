@@ -9,9 +9,7 @@
 .flex-wrapper {
   display: flex;
   max-width: 1400px;
-  background-color: pink;
-  /* height: 100vh; */
-  /* margin: 0 auto; */
+  background-color: rgb(221, 160, 221);
   padding-top: 10rem;
 }
 
@@ -91,7 +89,7 @@ a {
 }
 
 h2 {
-  color: red;
+  color: black;
   font-family: "Overpass";
   font-size: 400;
 }
@@ -131,7 +129,7 @@ h4 {
     width: 100%;
   }
   h2 {
-    color: red;
+    color: black;
   }
   .socials {
     padding-top: 1rem;

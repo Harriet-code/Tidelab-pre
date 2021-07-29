@@ -13,7 +13,7 @@
   padding: 30px 25px;
   /* height: 10vh; */
   width: 100%;
-  background-color: #ffff;
+  background-color: #fff;
   margin-top: 20px;
 }
 .info-about {
@@ -91,9 +91,8 @@ h4 {
 @media (max-width: 600px) {
   .main-container {
     padding: 30px 25px;
-    /* height: 230vh; */
     width: 100%;
-    background-color: rgb(66, 190, 221);
+    background-color: #fff;
   }
 
   .info-about {
@@ -121,6 +120,7 @@ h4 {
   }
   h3 {
     font-size: 2rem;
+    color: black;
   }
 
   .icon-list {
